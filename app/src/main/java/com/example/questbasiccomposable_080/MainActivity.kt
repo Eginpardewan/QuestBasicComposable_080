@@ -85,6 +85,13 @@ fun BasicComposse(modifier: Modifier = Modifier) {
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
+            ),
+        )
+        Text(
+            text = "20220140080",
+            style = TextStyle(
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold
             )
         )
     }
