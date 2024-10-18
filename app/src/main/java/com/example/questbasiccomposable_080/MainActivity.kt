@@ -79,6 +79,14 @@ fun BasicComposse(modifier: Modifier = Modifier) {
                 color = Color.Magenta
             ),
         )
+        Text(
+            text = "Egin Pardewan",
+            style = TextStyle(
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+        )
     }
 
         @Preview(showBackground = true)
