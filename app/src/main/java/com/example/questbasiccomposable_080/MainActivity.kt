@@ -15,8 +15,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.questbasiccomposable_080.ui.theme.QuestBasicComposable_080Theme
 
@@ -50,6 +52,18 @@ fun BasicComposse(modifier: Modifier = Modifier) {
                 fontSize = 30.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
+            ),
+        )
+        Text(
+            text = "Ini adalah halaman Login",
+            modifier = modifier.padding(bottom = 1.dp),
+            style = TextStyle(
+                fontStyle = FontStyle.Italic,
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Normal,
+                color = Color.Blue
+            ),
+        )
     }
 
         @Preview(showBackground = true)
