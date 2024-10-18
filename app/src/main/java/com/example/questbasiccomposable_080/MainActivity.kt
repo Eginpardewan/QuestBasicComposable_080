@@ -82,7 +82,7 @@ fun BasicComposse(modifier: Modifier = Modifier) {
         Text(
             text = "Egin Pardewan",
             style = TextStyle(
-                fontSize = 18.sp,
+                fontSize = 19.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             ),
