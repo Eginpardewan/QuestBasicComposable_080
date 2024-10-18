@@ -71,6 +71,14 @@ fun BasicComposse(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.logoumy), contentDescription = null,
             modifier = Modifier.size(150.dp)
         )
+        Text(
+            text = "nama",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.Magenta
+            ),
+        )
     }
 
         @Preview(showBackground = true)
