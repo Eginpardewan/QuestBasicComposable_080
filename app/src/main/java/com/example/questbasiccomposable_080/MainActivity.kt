@@ -94,7 +94,11 @@ fun BasicComposse(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
         )
+        Image(
+            painter = painterResource(id = R.drawable.img),contentDescription = null
+        )
     }
+}
 
         @Preview(showBackground = true)
 @Composable
